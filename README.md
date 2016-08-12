@@ -1,6 +1,6 @@
 # get-or-else demo
 
-An example usage of [get-or-else](https://www.npmjs.com/package/get-or-else) using React ES6.
+An example usage of [get-or-else](https://www.npmjs.com/package/get-or-else) with React ES6.
 
 ### Run the tests
 Given you have [Node](https://nodejs.org/en/) installed, `cd` into this folder and:
