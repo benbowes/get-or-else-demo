@@ -1,7 +1,7 @@
 {
-  "name": "get-or-else-use-default-es5-demo",
+  "name": "get-or-else-demo",
   "version": "1.0.0",
-  "description": "Get Or Else in Javascript ES5",
+  "description": "Get Or Else in Javascript",
   "main": "index.js",
   "scripts": {
     "deploy": ".bin/deploy.sh",

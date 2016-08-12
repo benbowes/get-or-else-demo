@@ -10,10 +10,10 @@ fi
 webpack --config webpack.config.js
 
 # Copy other files into dist/
-cp index.html styleguide.css dist
+cp index.html dist
 
 # git add new dist/ assets
-git add dist/app.js dist/index.html dist/styleguide.css
+git add dist/index.js dist/index.html
 
 # Commit dist/ changes
 git commit -m "Deploy to gh-pages..."
