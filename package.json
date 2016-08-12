@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benbowes/get-or-else-use-default-es5-demo.git"
+    "url": "git+https://github.com/benbowes/get-or-else-demo.git"
   },
   "keywords": [
     "get",
@@ -25,23 +25,21 @@
   "author": "Ben Bowes <bb.benbowes.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benbowes/get-or-else-use-default-es5-demo/issues"
+    "url": "https://github.com/benbowes/get-or-else-demo/issues"
   },
-  "homepage": "https://github.com/benbowes/get-or-else-use-default-es5-demo#readme",
+  "homepage": "https://github.com/benbowes/get-or-else-demo#readme",
   "devDependencies": {
+    "get-or-else": "^1.1.0",
+
     "babel-core": "6.9.x",
     "babel-loader": "6.2.x",
     "babel-preset-es2015": "6.9.x",
     "babel-preset-react": "6.5.x",
     "eslint": "^3.2.2",
-    "expect": "^1.20.2",
-    "mocha": "^3.0.2",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "webpack": "1.12.x",
     "webpack-dev-server": "1.14.x",
-    "get-or-else": "^1.1.0",
-
     "eslint": "2.11.x",
     "eslint-plugin-babel": "3.2.x",
     "eslint-plugin-react": "5.0.x",
