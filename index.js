@@ -67,12 +67,9 @@
 	  }
 	};
 
-	var salutation = (0, _getOrElse2.default)({
-	  get: [data, 'salutation'],
-	  else: false
-	});
+	var salutation = (0, _getOrElse2.default)({ get: [data, 'salutation'], else: false });
 
-	var BaseComponent = function BaseComponent() {
+	var NameComponent = function NameComponent() {
 	  return _react2.default.createElement(
 	    'h1',
 	    null,
@@ -81,8 +78,7 @@
 	      'span',
 	      null,
 	      ' ',
-	      salutation,
-	      ' '
+	      salutation
 	    ),
 	    _react2.default.createElement(
 	      'span',
@@ -99,7 +95,7 @@
 	  );
 	};
 
-	_reactDom2.default.render(_react2.default.createElement(BaseComponent, null), document.getElementById('root'));
+	_reactDom2.default.render(_react2.default.createElement(NameComponent, null), document.getElementById('root'));
 
 /***/ },
 /* 1 */
