@@ -9,19 +9,17 @@ const data = {
   }
 };
 
-const salutation = getOrElse({
-  get: [data,'salutation'],
-  else: false
-});
+const salutation = getOrElse({ get: [data,'salutation'], else: false });
 
-const BaseComponent = () => {
+const NameComponent = () => {
   return (
-    <h1>We've been expecting you
-    {salutation && <span> {salutation} </span>}
-    <span> {getOrElse({ get:[data,'name.first'], else:''})}</span>
-    <span> {getOrElse({ get:[data,'name.last'], else:''})}</span>
+    <h1>
+      We've been expecting you
+      {salutation && <span> {salutation}</span>}
+      <span> {getOrElse({ get:[data,'name.first'], else:''})}</span>
+      <span> {getOrElse({ get:[data,'name.last'], else:''})}</span>
     </h1>
   );
 };
 
-ReactDOM.render(<BaseComponent />, document.getElementById('root'));
+ReactDOM.render(<NameComponent />, document.getElementById('root'));
