@@ -60,20 +60,20 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var data = {
+	var nameObj = {
 	  salutation: 'Mr',
 	  name: {
 	    first: 'James'
 	  }
 	};
 
-	var salutation = (0, _getOrElse2.default)({ get: [data, 'salutation'], else: false });
+	var salutation = (0, _getOrElse2.default)({ get: [nameObj, 'salutation'], else: false });
 
 	var NameComponent = function NameComponent() {
 	  return _react2.default.createElement(
 	    'h1',
 	    null,
-	    'We\'ve been expecting you',
+	    'We have been expecting you',
 	    salutation && _react2.default.createElement(
 	      'span',
 	      null,
@@ -84,13 +84,13 @@
 	      'span',
 	      null,
 	      ' ',
-	      (0, _getOrElse2.default)({ get: [data, 'name.first'], else: '' })
+	      (0, _getOrElse2.default)({ get: [nameObj, 'name.first'], else: '' })
 	    ),
 	    _react2.default.createElement(
 	      'span',
 	      null,
 	      ' ',
-	      (0, _getOrElse2.default)({ get: [data, 'name.last'], else: '' })
+	      (0, _getOrElse2.default)({ get: [nameObj, 'name.last'], else: '' })
 	    )
 	  );
 	};
